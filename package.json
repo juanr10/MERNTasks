@@ -4,7 +4,7 @@
   "description": "MERNTasks API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node .",
     "dev": "nodemon ."
   },
   "author": "Juan Argudo",
