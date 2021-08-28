@@ -7,7 +7,6 @@ require('dotenv').config({ path: 'variables.env' });
  * @param:none.
  */
 const connectDB = async () => {
-    console.log(process.env.DB_MONGO);
     try {
         await mongoose.connect(process.env.DB_MONGO, {
             useCreateIndex: true,
